@@ -1,0 +1,77 @@
+#app {
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#todo-input {
+  width: calc(90% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#todo-info div {
+    margin-right: auto;
+}
+
+#todo-info button {
+    margin: 0 5px;
+}
+#all-list {
+  list-style: none;
+  padding: 0;
+}
+
+#all-list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+#all-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#all-info button {
+  padding: 5px 10px;
+}
+
+#mirror-item {
+  visibility: hidden;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+#total-count {
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.DeleteTodos {
+  float: right;
+}
+.Todoli {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  height: 20px;
+}

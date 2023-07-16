@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Your Project Title</title>
-</head>
-<body>
-  <div id="app">
-    <input type="text" id="todo-input" placeholder="Enter Todo">
-    <ul id="todo-list"></ul>
-    <div id="todo-info">
+  <head>
+    
+    <title>Your Project Title</title>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" id="todo-input" placeholder="Enter Todo" />
+      <ul id="todo-list"></ul>
+      <div id="todo-info" class="flex-container">
         <button id="filter-all">All</button>
         <button id="filter-active">Active</button>
         <button id="filter-complete">Completed</button>
         <div>Total: <span id="total-count"></span></div>
         <button id="delete-complete">Delete Completed</button>
+      </div>
+      <div id="mirror-item"></div>
     </div>
-</div>
-  <script src="../dist/index.js"></script> <!-- Add the path to your new HTML file -->
-</body>
+
+    <script src="../dist/index.js"></script>
+    <!-- Add the path to your new HTML file -->
+  </body>
 </html>

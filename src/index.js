@@ -1,5 +1,6 @@
-import { createTodoApp } from './tolist.ts';
 
+import { createTodoApp } from './tolist.ts';
+import './index.css';
 const todoApp = new createTodoApp('app');
 
 
